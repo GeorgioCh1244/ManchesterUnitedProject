@@ -1,0 +1,150 @@
+.gaming-header {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a, #ff0000);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+
+.gaming-header h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.gaming-header p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+.gaming-header img{
+    height: 80px;
+    width: 90px;
+    float: left;
+}
+nav{
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a, #ff0000);
+    padding: 10px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    display: flex;
+    margin-right: 20px; 
+    text-align: center;
+}
+ul li a:link,a:hover,a,a:active{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: larger;
+}
+body {
+    background: linear-gradient(135deg, #1a1a1a, #2e2e2e, #ff3333);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+div.history img{
+    height: 330px;
+    width: 280px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+div.history img:hover{
+    transform: scale(1.1);
+}
+div.history{
+    display: flex;
+    gap: 25px;
+}
+h2{
+    color: yellow;
+}
+table{
+    border: #ffcc00;
+}
+td{
+    padding: 20px;
+}
+        #fact-box {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            display: none; /* Initially hidden */
+            font-size: 1.5em;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+        button{
+            color: black;
+            background: #ffcc00;
+        }
+                .field {
+            background-color: #008000;
+            width: 80%;
+            height: 500px;
+            margin: auto;
+            border-radius: 10px;
+            position: relative;
+        }
+        .player {
+            background-color: #ffcc00;
+            color: black;
+            padding: 15px;
+            width: 100px;
+            height: 20px;
+            position: absolute;
+            text-align: center;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+        }
+        .goalkeeper { top: 90%; left: 45%; } /* Onana */
+        .defender1 { top: 65%; left: 10%; } /* Shaw */
+        .defender2 { top: 65%; left: 35%; } /* Martinez */
+        .defender3 { top: 65%; left: 55%; } /* Maguire */
+        .defender4 { top: 65%; left: 80%; } /* Dalot */
+        .midfielder1 { top: 45%; left: 20%; } /* Casemiro */
+        .midfielder2 { top: 45%; left: 45%; } /* Fernandes */
+        .midfielder3 { top: 45%; left: 70%; } /* Mount */
+        .forward1 { top: 15%; left: 20%; } /* Garnacho */
+        .forward2 { top: 15%; left: 45%; } /* Hojlund */
+        .forward3 { top: 15%; left: 70%; } /* Zirkzee */
+.vote{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Ensures text readability */
+    font-family: Arial, sans-serif;
+}
+#quiz{
+    margin-top: 30px;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#imageGrid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+img {
+    width: 200px;
+    height: 330px;
+    cursor: pointer;
+    border: 3px solid black;
+    transition: transform 0.2s;
+}
+img:hover {
+    transform: scale(1.1);
+}
+}

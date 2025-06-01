@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+        <header class="gaming-header">
+            <img  src="Manchester United Logo.jpeg" alt="Manchester Logo">
+    <h1>Welcome Red Devil's Fans</h1>
+    <p>Manchester united fans Website</p>
+</header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#Sch">Scheduele</a></li>
+            <li><a href="#Table">Table</a></li>
+            <li><a href="#History">History</a></li>
+            <li><a href="#Quiz">Quiz</a></li>
+            <li><a href="#">Review</a></li>
+        </ul>
+    </nav>
+        <blockquote>Welcome Reds to our website where you can find anything you want about our amazing club like our history,Scheduele,Tables and many more we are proud that we are a part of this family
+        <br>
+        <h2 id="History">History</h2>
+        <div class="history">
+            <img src="download (2).jpeg">
+            <img src="iconic goal.jpeg">
+            <img src="Sir.jpeg">
+            <img src="Manchester United Treble parade 1999.jpeg" width="300px">
+            <img src="Ryan Giggs Premier League.jpeg" width="300px">
+        </div>
+        <h2>Trophies</h3>
+        <ul>
+            <li>20x Premier Leagues</li>
+            <li>3x Champions League winner</li>
+            <li>1x FIFA Club World Cup winner</li>
+            <li>1x UEFA Super Cup Winner</li>
+            <li>1x Europa League Winner</li>
+            <li>13x FA Cup winners</li>
+            <li>21x English Supercup winner</li>
+        </ul>
+        <ul>
+            <li>6x English League Cup winner</li>
+            <li>1x Intercontinental Cup Winner</li>
+            <li>2x English 2nd tier champion</li>
+        </ul>
+        <h2 id="Sch">Scheduele</h2>
+        <table id="Table" border="2">
+            <tr>
+                <td>11 May</td>
+                <td>Manchester United</td>
+                <td>West Ham</td>
+                <td>Premier League</td>
+            </tr>
+            <tr>
+                <td>16 May</td>
+                <td>Chelsea</td>
+                <td>Manchester United</td>
+                <td>Premier League</td>
+            </tr>
+            <tr>
+                <td>21 May</td>
+                <td>Tottenham</td>
+                <td>Manchester United</td>
+                <td>Europa League</td>
+            </tr>
+            <tr>
+                <td>25 May</td>
+                <td>Manchester United</td>
+                <td>Aston Villa</td>
+                <td>Premier League</td>
+            </tr>
+        </table>
+    <h2>Manchester United Facts</h2>
+    <p>Click the button below to reveal a random fact about the club!</p>
+    
+    <input type="text" id="fact-box" readonly placeholder="Press the button to get a fact!">
+    <br>
+    <button onclick="showFact()">Get a Fact</button> 
+    <p id="fact-box"></p>
+    <h2>Lineup</h2>
+    <div class="field">
+        <div class="player goalkeeper">Onana</div>
+        <div class="player defender1">Shaw</div>
+        <div class="player defender2">Martinez</div>
+        <div class="player defender3">Maguire</div>
+        <div class="player defender4">Dalot</div>
+        <div class="player midfielder1">Casemiro</div>
+        <div class="player midfielder2">Fernandes</div>
+        <div class="player midfielder3">Mount</div>
+        <div class="player forward1">Garnacho</div>
+        <div class="player forward2">Hojlund</div>
+        <div class="player forward3">Zirkzee</div>
+    </div>
+           <h2>Welcome to the Manchester United Transfer</h2>
+    <p>Vote for the next signing and check results below:</p>
+    <a href="vote.php"><button>Vote Now</button></a>
+    <a href="results.php"><button>View Results</button></a>
+    <h2 id="Quiz">Manchester United Quiz!</h2>
+    <div id="quiz">
+        <p id="question">Loading question...</p>
+        <input type="text" id="answer" placeholder="Type your answer here">
+        <button onclick="checkAnswer()">Submit Answer</button>
+        <p id="result"></p>
+    </div> 
+     <p id="quizPrompt">Loading question...</p>
+    <div id="imageGrid">
+        <img id="pic1" onclick="validateSelection(0)">
+        <img id="pic2" onclick="validateSelection(1)">
+        <img id="pic3" onclick="validateSelection(2)">
+    </div>
+    <p id="feedback"></p>
+</body>
+</html>
